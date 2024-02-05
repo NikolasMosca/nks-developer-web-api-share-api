@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#app {
+    background: lightcyan;
+    padding: 20px;
+}
+
+.item {
+    background: orange;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.active {
+    background: red;
+    color: white;
+}
